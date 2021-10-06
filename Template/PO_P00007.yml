@@ -1,0 +1,15 @@
+# -*- coding: utf8- -*-
+issuer: XXX Company
+keywords:
+- XXX
+fields:
+  amount: Total\s+[$]\s+(\d+.\d+)
+  date: Order\sDate:\n(\d{1,2}\/\d{1,2}\/\d{4})\s\d{1,2}:\d{1,2}:\d{1,2}
+  invoice_number: Purchase\sOrder\s#(\w\d+)
+options:
+  remove_whitespace: false
+  currency: USD
+  date_format:
+    - '%m/%d/%Y'
+  languages:
+    - en

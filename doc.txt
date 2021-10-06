@@ -1,0 +1,20 @@
+pip install invoice2data
+// install https://poppler.freedesktop.org/     or
+// http://blog.alivate.com.au/poppler-windows/
+make sure you have muicrosoft visual C++ build tools, _14.x
+conda install -c conda-forge poppler
+pip install pdf2text
+
+necessary fields
+issuer(can be static) - amount - date - invoice_number
+
+the yml should be same name as pdf
+
+on linux:
+pip install invoice2data
+sudo apt-get install poppler-utils
+pip install pdftotext
+
+use https://regex101.com/ to build template
+
+learn how to type regex patterns:	https://www.youtube.com/watch?v=0E2Gj2Ba6PQ
